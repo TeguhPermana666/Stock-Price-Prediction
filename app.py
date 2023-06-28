@@ -22,10 +22,10 @@ df_AMZN= pdr.get_data_yahoo('AMZN', start='2012-01-01', end=datetime.now())
 
 
 # Load model
-model_appl = joblib.load("model\model_appl.pkl")
-model_goog = joblib.load("model\model_goog.pkl")
-model_msft = joblib.load("model\model_msft.pkl")
-model_amzn = joblib.load("model\model_amzn.pkl")
+model_appl = joblib.load(r"model\model_appl.pkl")
+model_goog = joblib.load(r"model\model_goog.pkl")
+model_msft = joblib.load(r"model\model_msft.pkl")
+model_amzn = joblib.load(r"model\model_amzn.pkl")
 
 # dashboard title
 st.title("Real-Time Stock Market Dashboard")
